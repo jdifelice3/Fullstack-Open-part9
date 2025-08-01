@@ -21,7 +21,7 @@ const getNonSensitivePatients = (): NonSensitivePatient[] => {
 const addPatient = (patient:NewPatient): Patient => {
   
   const newPatient = {
-    id:id,
+    id: id,
     ...patient
   }
 
